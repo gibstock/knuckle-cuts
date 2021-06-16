@@ -2,9 +2,10 @@
   "name": "knuckle-cuts",
   "version": "1.0.0",
   "description": "This is the beginning steps to further my understanding of all things code. I intend to use this repository to hold my personal portfolio website. I will be using simple HTML, CSS and JavaScript. Then I will deploy to Netlify with a personal domain.  I hope to learn as I Blog my progress.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "devStart": "nodemon index.js"
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.1"
   }
 }
