@@ -46,6 +46,7 @@ nav {
     text-decoration: none;
     color: #eee;
 }
+
 .container {
     width: 80%;
     margin: auto;
@@ -67,15 +68,38 @@ footer {
     header {
         position: relative;
     }
+    .nav-group {
+        padding: 0;
+        justify-content: space-around;
+    }
+    
+    .nav-item img {
+        display: none;
+    }
     aside {
         width: 100%;
         height: auto;
         margin: 0;
         position: relative;
+        border: none;
+        color: #eee;
+        text-align: left;
+    }
+    aside a {
+        color: #ddd;
+    }
+    aside a:visited {
+        color: #ddd;
     }
     .aside-content {
+        background-color: #222;
         margin: 0 0 0 0;
         padding-left: 1em;
+        background-image: url('/images/logo-blue2-369-299.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
     }
     .aside-content h3 {
         margin: 0;
